@@ -1,0 +1,24 @@
+# .gitignore
+# Simple .gitignore rules for Python programs
+
+# Ignore __pycache__ directory
+__pycache__/
+
+# Ignore compiled bytecode files
+# These file are generated when we use import statements
+#   The bytecode file of the imported file is generated and used for faster
+#   execution.
+*.pyc
+
+# Ignore DDL files
+# There Python scripts made into Windows DLL
+*.pyd
+
+# PyCharm management directory
+.idea/
+
+# Python virtual environment
+.venv/
+venv/
+
+.DS_Store
